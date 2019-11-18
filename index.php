@@ -8,7 +8,7 @@ require("./include/head.php");
 			<div class="col-md-8 col-md-offset-2 text-center">
 				<div class="display-t">
 					<div class="display-tc animate-box" data-animate-effect="fadeIn">
-						<h1>ANKARA TEXTILES <br> AND <br>LEATHERS</h1>
+						<h1>DOMESTIC PRODUCTS SALES <br> AND <br>TEXTILES</h1>
 					</div>
 				</div>
 			</div>
@@ -41,7 +41,7 @@ require("./include/head.php");
 									<div class="blog-text">
 										<h3><?php echo $row["pname"]; ?></h3>
 										<h3><a>N<?php echo $row["pprice"]; ?></a></h3>
-										<span class="comment"><a><?php echo $row["pyards"]; ?> Yards</a></span>
+										<span class="comment"><a><?php echo $row["qty"]; ?> qty</a></span>
 										<br>
 										<input type="hidden" name="hidden_name" value="<?php echo $row["pname"]; ?>">
 										<input type="hidden" name="hidden_price" value="<?php echo $row["pprice"]; ?>">
